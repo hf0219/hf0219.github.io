@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hitoshi Fujioka（藤岡 舜）</title>
+  <style>
+    :root { --bg:#ffffff; --fg:#131313; --muted:#666; --border:#e8e8e8; --accent:#006E54; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0b0c0f; --fg:#f2f2f2; --muted:#9aa4b2; --border:#1e222a; --accent:#21C07A; }
+    }
+    html { scroll-behavior:smooth; }
+    html, body { margin:0; padding:0; background:var(--bg); color:var(--fg); font:16px/1.75 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .container { max-width: 820px; margin: clamp(24px,4vw,48px) auto; padding: 0 16px 40px; }
+
+    header h1 { margin: 0 0 4px; font-size: clamp(28px, 5vw, 40px); letter-spacing: 0.2px; }
+    .lang { float:right; font-size:14px; }
+    header:after { content:""; display:block; clear:both; }
+
+    .topnav { display:flex; flex-wrap:wrap; gap:14px; margin: 10px 0 24px; }
+    .topnav a { color: var(--muted); text-decoration:none; border:1px solid var(--border); padding:4px 10px; border-radius:999px; font-size:14px; }
+    .topnav a:hover { color: var(--fg); border-color: var(--fg); }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h2 { margin-top: 34px; font-size: 20px; padding-bottom: 6px; position: relative; }
+    h2:after { content:""; position:absolute; left:0; bottom:0; width: 84px; height: 2px; background: linear-gradient(90deg, var(--accent), transparent); opacity:0.5; }
+    h3 { margin: 18px 0 10px; font-size: 16px; color: var(--muted); }
+    .meta { color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
+
+    ul, ol { padding-left: 1.1rem; }
+    .list-clean { list-style: none; padding-left:0; }
+    .paper { padding: 6px 0 6px 12px; border-left: 3px solid var(--border); margin: 8px 0; }
+    .talk { margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="lang"><a href="index.html">English</a></div>
+      <h1>藤岡 舜 / ふじおか ひとし</h1>
+      <nav class="topnav">
+        <a href="#about">概要</a>
+        <a href="#papers">論文</a>
+        <a href="#talks">発表</a>
+        <a href="#cv">経歴</a>
+        <a href="#links">リンク</a>
+      </nav>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <h2 id="about">自己紹介</h2>
+    <p>
+      京都大学 <a href="https://www.kurims.kyoto-u.ac.jp/">数理解析研究所（RIMS）</a> に所属する博士課程2年です。興味は複素幾何学、Higgs束などです。
+    </p>
+    <p class="meta">メールアドレス: fujioka[ at ]kurims.kyoto-u.ac.jp</p>
+
+    <!-- ===== PAPERS ===== -->
+    <h2 id="papers">論文</h2>
+    <ol class="list-clean">
+      <li class="paper">
+        <strong>Harmonic metrics for Higgs bundles of rank 3 in the Hitchin section</strong><br/>
+        <span class="meta">SIGMA, 2024（<a href="https://arxiv.org/abs/2403.07258">arXiv</a>, <a href="https://doi.org/10.3842/SIGMA.2024.111">DOI</a>）</span>
+      </li>
+    </ol>
+
+    <!-- ===== TALKS ===== -->
+    <h2 id="talks">発表</h2>
+    <ul>
+      <li class="talk"><strong>Harmonic metrics for Higgs bundles of rank 3 in the Hitchin section</strong> — Young Mathematician Workshop on Several Complex Variables 2025（北京師範大学）, 2025年8月5日</li>
+      <li class="talk"><strong>Hitchin sectionに含まれる階数3のHiggs束の調和計量</strong> — 第21回数学総合若手研究集会（北海道大学）, 2025年3月5日</li>
+      <li class="talk"><strong>Harmonic metrics for Higgs bundles of rank 3 in the Hitchin section</strong> — New developments in Kobayashi-Hitchin correspondence and Higgs bundles（大阪公立大学）, 2024年8月7日</li>
+      <li class="talk"><strong>Hitchin sectionに含まれる階数3のHiggs束の調和計量</strong> — 幾何セミナー（東北大学）, 2024年7月16日</li>
+      <li class="talk"><strong>Hitchin sectionに含まれる階数3のHiggs束の調和計量</strong> — 幾何セミナー（大阪大学）, 2024年6月10日</li>
+    </ul>
+
+    <!-- ===== CV ===== -->
+    <h2 id="cv">経歴</h2>
+    <h3>学歴</h3>
+    <ul>
+      <li><span class="meta">2024年4月-現在</span> — 京都大学 大学院理学研究科 数学・数理解析専攻 博士課程</li>
+      <li><span class="meta">2022年4月-2024年3月</span> — 京都大学 大学院理学研究科 数学・数理解析専攻 修士課程</li>
+      <li><span class="meta">2018年4月-2022年3月</span> — 京都大学 理学部</li>
+    </ul>
+
+    <h3>職歴・フェローシップ</h3>
+    <ul>
+      <li><span class="meta">2025年4月-現在</span> — 日本学術振興会 特別研究員（DC2）</li>
+      <li><span class="meta">2024年4月-2025年3月</span> — JST SPRINGプログラム</li>
+    </ul>
+
+    <!-- ===== LINKS ===== -->
+    <h2 id="links">リンク</h2>
+    <ul>
+      <li><a href="https://www.kurims.kyoto-u.ac.jp/">数理解析研究所（RIMS）</a></li>
+    </ul>
+
+    <div class="footer">最終更新: 2025-09-06</div>
+  </div>
+
+  <!-- MathJax v3: TeX to CHTML ($...$ / $$...$$) -->
+  <script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true,
+      tags: 'ams',
+      packages: {'[+]': ['noerrors','noundefined']}
+    },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</body>
+</html>
