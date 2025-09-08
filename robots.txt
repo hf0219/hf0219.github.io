@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://hf0219.github.io/sitemap.xml
